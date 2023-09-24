@@ -6,3 +6,40 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #EDEFE3;
 }
+
+.btn-primary {
+  background-color: #DBEA8D !important;
+  border-color: #DBEA8D !important;
+  color: #000 !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  border-radius: 20px !important;
+}
+
+.btn-secondary {
+  background-color: #CFEBDF !important;
+  border-color: #CFEBDF !important;
+  color: #000 !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  border-radius: 20px !important;
+}
+
+.form-label {
+  font-size: 32px !important;
+  font-weight: 500 !important;
+}
+
+.form-control {
+  border-radius: 10px !important;
+  background-color: #EDEDED !important
+}
+
+input {
+  font-size: 24px !important;
+  border: 2px solid black !important
+}
+
+.modal-footer {
+  border: 0 !important;
+}

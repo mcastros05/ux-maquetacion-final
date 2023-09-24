@@ -8,10 +8,30 @@
     <div class="col-3"></div>
     <div class="col-6">
       <div class="d-grid gap-2">
-        <button class="btn btn-primary signin" type="button">Button</button>
-        <button class="btn btn-primary signin" type="button">Button</button>
-      </div>
-    </div>
-    <div class="col-3"></div>
-  </div>
-</div>
+        <button class="btn btn-primary signin" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Continuar con
+          Google</button>
+        <button class="btn btn-primary signin" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Continuar con
+          Apple</button>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="md-form">
+                  <label for="InputEmail1" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control login-input" id="InputEmail1">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary login-button-back" data-bs-dismiss="modal">Volver</button>
+                <button type="submit" class="btn btn-primary login-button-submit">Continuar</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+
+            <div class="col-3"></div>
+            </div>

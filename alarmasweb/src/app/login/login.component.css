@@ -6,3 +6,29 @@
 .logo {
   margin-bottom: 50px;
 }
+.modal-content {
+  border-radius: 20px !important;
+  background-color: #FCFCF7 !important;
+  padding: 70px 50px !important;
+  max-height: calc(100% - 325px);
+}
+
+.modal-body {
+  border-radius: 20px !important;
+  padding-bottom: 34px !important;
+}
+
+.login-button-submit {
+  width: 225px;
+}
+
+.login-button-back {
+  width: 130px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+label {
+  font-weight: 500 !important;
+  float: left !important;
+}
