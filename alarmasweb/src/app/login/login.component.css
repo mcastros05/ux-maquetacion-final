@@ -33,3 +33,7 @@ label {
   font-weight: 500 !important;
   float: left !important;
 }
+
+.card-img-top {
+  height: 150px !important;
+}
