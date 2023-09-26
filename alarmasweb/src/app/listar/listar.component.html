@@ -14,17 +14,16 @@
   <div class="row">
     <input type="search" class="custom-search" placeholder="Buscar">
   </div>
-  <div class="row justify-content-md-center">
-    <div class="col-3">
+  <div class="row justify-content-md-center custom">
+    <div class="col-3 custom" *ngFor="let alarma of alarmas">
       <div class="card">
-        <img class="card-img-top image-card" src="../../assets/Map.png" />
+        <img class="card-img-top image-card" src="{{alarma.location}}" />
         <div class="card-body">
-          <p class="card-title">Gym Lunes</p>
+          <p class="card-title">{{alarma.title}}</p>
           <div class="d-flex">
-            <p class="alarm-card" style="margin-right: 7px !important;">18/09/23</p>
-            <p class="alarm-card">06:00</p>
+            <p class="alarm-card" style="margin-right: 7px !important;">{{alarma.fecha}}</p>
+            <p class="alarm-card">{{alarma.hora}}</p>
           </div>
-
         </div>
       </div>
     </div>

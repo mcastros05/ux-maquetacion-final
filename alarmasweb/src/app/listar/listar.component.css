@@ -8,6 +8,8 @@
   border-radius: 20px !important;
   width: 250px !important;
   height: 275px !important;
+  margin-bottom: 25px;
+    box-shadow: 10px 10px 5px lightgray;
 }
 
 .card-body {
@@ -39,4 +41,9 @@
   line-height: 50px;
   text-align: center;
   border-radius: 15px !important;
+}
+.custom {
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
