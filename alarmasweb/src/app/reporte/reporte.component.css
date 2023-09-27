@@ -1,0 +1,32 @@
+#logout-btn {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.row-graph {
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.2);
+}
+
+.report-title {
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.btn-detail {
+    width: -webkit-fill-available;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.btn-group > .btn-graph {
+    border-radius: 3px !important;
+    margin-right: 3px !important;
+}
