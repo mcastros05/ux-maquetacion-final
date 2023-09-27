@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './login/login.module';
 import { ListarModule } from './listar/listar.module';
+import { DetalleComponent } from './detalle/detalle.component';
+import { ReporteComponent } from './reporte/reporte.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DetalleComponent,
+    ReporteComponent
   ],
   imports: [
     BrowserModule,

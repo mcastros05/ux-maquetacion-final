@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alarmas</string>
+    <string name="google_button">Iniciar con Google</string>
+    <string name="apple_button">Iniciar con Apple</string>
+
+    <string name="alarm_title">A levantarse</string>
+    <string name="alarm_date">26/06/2023</string>
+    <string name="alarm_hour">08:00pm</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/brand-nav-bard.png" alt="Logo" width="75" height="75" class="d-inline-block">
+            Alarmas
+        </a>
+        <div class="" id="navbarText">
+            <img src="../../assets/Account Icon.png" alt="account" class="d-inline-block">
+            <button class="btn btn-secondary" id="logout-btn">Logout</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card card-detalle-imagen">
+                <img src="{{alarma.location}}" class="card-img" alt="{{alarma.title}}" />
+                <div class="card-img-overlay">
+                    <div class="row justify-content-bg-left custom detail-row">
+                        <div class="col-6 custom">
+                            <div class="card card-alarma">
+                                <div class="card-body">
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-8">
+                                            <h1 class="card-title text-center">{{alarma.title}}</h1>
+                                            <hr />
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-5">
+                                            <h2>Fecha</h2>
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"
+                                                    style="margin-left: 30px !important;">{{alarma.fecha}}</span>
+                                            </div>
+                                            <!-- <p class="alarm-card" style="margin-right: 7px !important;">{{alarma.fecha}}
+                                            </p> -->
+                                        </div>
+                                        <div class="col-5">
+                                            <h2>Hora</h2>
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"
+                                                    style="margin-left: 30px !important;">{{alarma.hora}}</span>
+                                            </div>
+                                            <!-- <p class="alarm-card" style="margin-right: 7px !important;">{{alarma.fecha}}
+                                            </p> -->
+                                        </div>
+
+                                    </div>
+                                    <br />
+                                    <br />
+                                    <div class="row justify-content-md-center">
+                                        <div class="col-5">
+                                            <button type="button" class="btn btn-secondary btn-detail">Volver</button>
+                                        </div>
+                                        <div class="col-5">
+                                            <button type="button" class="btn btn-primary btn-detail">Ver
+                                                Reporte</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
