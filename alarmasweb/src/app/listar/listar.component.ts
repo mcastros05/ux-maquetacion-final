@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Alarma } from '../alarma';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-listar',
@@ -18,9 +19,13 @@ export class ListarComponent implements OnInit {
     { id: 7, title: "Recordatorio", location: "../../assets/locations/location3.png", fecha: "01/01/24", hora: "05:25" },
     { id: 8, title: "Navidad", location: "../../assets/locations/location4.png", fecha: "25/12/23", hora: "01:00" },
   ]
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  onBtnClick() {
+    this.router.navigateByUrl("/detalle");
   }
 
 }

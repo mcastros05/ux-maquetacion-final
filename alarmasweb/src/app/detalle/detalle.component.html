@@ -1,15 +1,4 @@
-<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="../../assets/brand-nav-bard.png" alt="Logo" width="75" height="75" class="d-inline-block">
-            Alarmas
-        </a>
-        <div class="" id="navbarText">
-            <img src="../../assets/Account Icon.png" alt="account" class="d-inline-block">
-            <button class="btn btn-secondary" id="logout-btn">Logout</button>
-        </div>
-    </div>
-</nav>
+<app-navbar></app-navbar>
 
 <div class="container">
     <div class="row">
@@ -52,11 +41,14 @@
                                     <br />
                                     <div class="row justify-content-md-center">
                                         <div class="col-5">
-                                            <button type="button" class="btn btn-secondary btn-detail">Volver</button>
+                                            <button type="button" class="btn btn-secondary btn-detail"
+                                                routerLink="/alarmas">Volver</button>
                                         </div>
                                         <div class="col-5">
-                                            <button type="button" class="btn btn-primary btn-detail">Ver
-                                                Reporte</button>
+                                            <button type="button" class="btn btn-primary btn-detail"
+                                                routerLink="/reporte">
+                                                Ver Reporte
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

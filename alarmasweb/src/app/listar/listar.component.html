@@ -1,22 +1,12 @@
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../../assets/brand-nav-bard.png" alt="Logo" width="75" height="75" class="d-inline-block">
-      Alarmas
-    </a>
-    <div class="" id="navbarText">
-      <img src="../../assets/Account Icon.png" alt="account" class="d-inline-block">
-      <button class="btn btn-secondary" id="logout-btn">Logout</button>
-    </div>
-  </div>
-</nav>
+<app-navbar></app-navbar>
+
 <div class="container">
   <div class="row">
     <input type="search" class="custom-search" placeholder="Buscar">
   </div>
   <div class="row justify-content-md-center custom">
     <div class="col-3 custom" *ngFor="let alarma of alarmas">
-      <div class="card">
+      <div class="card" (click)="onBtnClick()">
         <img class="card-img-top image-card" src="{{alarma.location}}" />
         <div class="card-body">
           <p class="card-title">{{alarma.title}}</p>
