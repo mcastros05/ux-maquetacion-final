@@ -2,6 +2,7 @@
     <string name="app_name">Alarmas</string>
     <string name="google_button">Iniciar con Google</string>
     <string name="apple_button">Iniciar con Apple</string>
+    <string name="add_button">+</string>
 
     <string name="alarm_title">A levantarse</string>
     <string name="alarm_date">26/06/2023</string>
@@ -19,6 +20,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
